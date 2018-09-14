@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+
+    tools:context="edu.monash.fit5046.fit5046a2.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name: "
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etFN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tvLN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name: "
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etLN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+            <TextView
+                android:id="@+id/tvDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bnSetDate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="SET DATE"
+                android:textSize="12sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkedButton="@+id/rb_sem1"
+                android:orientation="horizontal"
+                android:fontFamily="casual"
+                android:textStyle="bold" >
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Female" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/course_array"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvStudyMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Study Mode:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgCourse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkedButton="@+id/rb_sem1"
+                android:orientation="horizontal"
+                android:fontFamily="casual"
+                android:textStyle="bold" >
+
+                <RadioButton
+                    android:id="@+id/rbFullTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="full-time" />
+
+                <RadioButton
+                    android:id="@+id/rbPartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="part-time" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tvSuburb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suburb:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spSuburb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/suburb_array"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nationality:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNativeLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Native Language:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spNativeLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/language_array"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFavouriteSport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favourite Sport:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spFavouriteSport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/fSport_array"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFavouriteMoive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favourite Movie:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etFavouriteMoive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tvFavouriteUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favourite Unit:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spFavouriteUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/fUnit_array"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCurrentJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Job:"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etCurrentJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/bnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

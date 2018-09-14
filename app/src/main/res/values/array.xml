@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course_array">
+        <item>----Please Choose----</item>
+        <item>MIT</item>
+        <item>MBIS</item>
+        <item>MNS</item>
+        <item>MDS</item>
+    </string-array>
+
+    <string-array name="suburb_array">
+        <item>----Please Choose----</item>
+        <item>Caulfield</item>
+        <item>Caulfiled East</item>
+        <item>Burwood</item>
+        <item>Chadstone</item>
+        <item>Clayton</item>
+        <item>Glen Waverley</item>
+        <item>Huntingdale</item>
+        <item>Murrumbeena</item>
+        <item>Mount Waverley</item>
+        <item>Notting Hill</item>
+        <item>Oakleigh</item>
+        <item>Oakleigh East</item>
+        <item>Ormond</item>
+    </string-array>
+
+    <string-array name="language_array">
+        <item>----Please Choose----</item>
+        <item>Chinese</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+    </string-array>
+
+    <string-array name="fSport_array">
+        <item>----Please Choose----</item>
+        <item>American football</item>
+        <item>Basketball</item>
+        <item>Billiards</item>
+        <item>Bowling</item>
+        <item>Football</item>
+        <item>Table tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="fUnit_array">
+        <item>----Please Choose----</item>
+        <item>FIT4039</item>
+        <item>FIT5046</item>
+        <item>FIT5047</item>
+        <item>FIT5057</item>
+        <item>FIT5148</item>
+        <item>FIT5171</item>
+        <item>FIT9131</item>
+        <item>FIT9132</item>
+        <item>FIT9134</item>
+        <item>FIT9135</item>
+    </string-array>
+
+    <string-array name="currentJob_array">
+        <item>----Please Choose----</item>
+        <item>accountant</item>
+        <item>architect</item>
+        <item>cook</item>
+        <item>dentist</item>
+        <item>HR manager</item>
+        <item>software developer</item>
+        <item>software tester</item>
+        <item>others</item>
+        <item>unemployed</item>
+    </string-array>
+
+    <string-array name="distance_array">
+        <item>----Please Choose----</item>
+        <item>1km</item>
+        <item>2km</item>
+        <item>5km</item>
+        <item>10km</item>
+        <item>50km</item>
+        <item>Any</item>
+    </string-array>
+</resources>

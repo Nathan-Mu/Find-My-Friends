@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background4"
+    android:orientation="vertical"
+    tools:context="edu.monash.fit5046.fit5046a2.ViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/vName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_weight="4"
+            android:text="Name"
+            android:textSize="30sp"
+            android:fontFamily="casual"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bn"
+            android:layout_width="111dp"
+            android:layout_height="40dp"
+            android:text="Add friend?"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:fontFamily="casual"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vDob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Dob"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Gender"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Course"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vStudyMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="studyMode"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Address"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vSuburb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Suburb"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Nationality"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vNativeLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="NativeLanguage"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vFSport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Favourite sport"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vFMoive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Favourite moive"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bnLearnMore"
+                android:layout_width="266dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif"
+                android:text=">> Click here to learn more about the movie"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/vFUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Favourite unit"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vCurrentJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Current job"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

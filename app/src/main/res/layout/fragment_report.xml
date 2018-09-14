@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background4"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/bnPie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Favourite Unit Report"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="119dp" />
+
+    <Button
+        android:id="@+id/bnBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bnPie"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="Show Bar Chart (Coming soon)"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+</RelativeLayout>
